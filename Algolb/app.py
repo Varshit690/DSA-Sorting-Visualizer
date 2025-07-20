@@ -151,6 +151,6 @@ def visualize():
     return render_template('result.html', steps=steps, algo=algo)
 
 # ----------- START SERVER ----------- #
-if ___name___ == '__main__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0',port=100000)
    
